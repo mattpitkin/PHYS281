@@ -13,8 +13,8 @@ assessment.
 Feedback to improve these notes is very welcome, so if you have any questions or comments please
 contact:
 
-* Dr Matthew Pitkin, m.pitkin@lancaster.ac.uk ([Chat on MS Teams](https://teams.microsoft.com/l/chat/0/0?users=m.pitkin@lancaster.ac.uk))
 * Dr Elisabetta Boella, e.boella@lancaster.ac.uk ([Chat on MS Teams](https://teams.microsoft.com/l/chat/0/0?users=e.boella@lancaster.ac.uk))
+* Neil Drummond, "n.drummond", followed by "@", followed by "lancaster.ac.uk"
 
 In this course we will use many jargon terms and unfortunately this is inevitable. In some cases
 certain terms will be used interchangeably as synonyms. We have created a
@@ -130,9 +130,8 @@ on Mondays between 10:00-11:00.
 The assignments and quizzes must be submitted on Moodle by 14:00 on the Tuesday the week after the
 associated lab session (i.e., the Week 1 assignment should be submitted no later than 14:00 on
 Tuesday of Week 2). The late submission deadline is 14:00 on Wednesday. If you
-require an extension or have a problem please contact [Matt
-Pitkin](https://teams.microsoft.com/l/chat/0/0?users=m.pitkin@lancaster.ac.uk), [Elisabetta
-Boella](https://teams.microsoft.com/l/chat/0/0?users=e.boella@lancaster.ac.uk) or [Louise
+require an extension or have a problem please contact [Elisabetta
+Boella](https://teams.microsoft.com/l/chat/0/0?users=e.boella@lancaster.ac.uk) or Neil Drummond or [Louise
 Crook](https://teams.microsoft.com/l/chat/0/0?users=l.crook@lancaster.ac.uk) via email or Teams. The
 assignments marking makes use of software called [CodeRunner](https://coderunner.org.nz/), which
 will automatically test and mark your submitted code. To avoid losing marks it is highly recommended
