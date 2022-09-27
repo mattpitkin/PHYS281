@@ -10,11 +10,13 @@ that are presented. A series of exercises are provided to test yourself on the p
 creating some code for a specific problem. These exercises are **not** part of the course
 assessment.
 
-Feedback to improve these notes is very welcome, so if you have any questions or comments please
-contact:
+The website was created by Matthew Pitkin, based on earlier lecture
+notes by Iain Bertram and Robin Long.  Feedback to improve this
+website is very welcome, so if you have any questions or comments
+please contact the current module lecturers:
 
-* Dr Elisabetta Boella, e.boella@lancaster.ac.uk ([Chat on MS Teams](https://teams.microsoft.com/l/chat/0/0?users=e.boella@lancaster.ac.uk))
-* Neil Drummond, "n.drummond", followed by "@", followed by "lancaster.ac.uk"
+* Dr Elisabetta Boella, [e.boella@lancaster.ac.uk](mailto:e.boella@lancaster.ac.uk) ([Chat on MS Teams](https://teams.microsoft.com/l/chat/0/0?users=e.boella@lancaster.ac.uk))
+* Neil Drummond, [n.drummond@lancaster.ac.uk](mailto:n.drummond@lancaster.ac.uk) ([Chat on MS Teams](https://teams.microsoft.com/l/chat/0/0?users=n.drummond@lancaster.ac.uk))
 
 In this course we will use many jargon terms and unfortunately this is inevitable. In some cases
 certain terms will be used interchangeably as synonyms. We have created a
@@ -145,7 +147,7 @@ The project grade is split between several components:
 * The written project report (30%)
 * The project code (30%)
 
-The [project](https://ma.ttpitk.in/teaching/PHYS281/gravity/) aim is to create and test an n-body
+The [project](https://www.lancaster.ac.uk/staff/drummonn/PHYS281/gravity/) aim is to create and test an n-body
 gravitationally interacting system (i.e., the Solar System). The two exercises provide a basis on
 which to build up to the full n-body simulation.
 
@@ -161,16 +163,16 @@ and understand how file path structure is formatted, including drive if necessar
 
 Please also see the material in the "Course notes" -> "Getting started" menu for information on
 installing the software required for this course
-([Anaconda](https://ma.ttpitk.in/teaching/PHYS281/demo-anaconda/) and [Visual Studio
-Code](https://ma.ttpitk.in/teaching/PHYS281/demo-vs-code/)) on your own machine or using
+([Anaconda](https://www.lancaster.ac.uk/staff/drummonn/PHYS281/demo-anaconda/) and [Visual Studio
+Code](https://www.lancaster.ac.uk/staff/drummonn/PHYS281/demo-vs-code/)) on your own machine or using
 AppsAnywhere on a machine on campus. The ["Online Python environments"](#online-python-environments)
 section below has some options for running Python, which can be used as a back-up alternative if you
 have initial installation problems.
 
 ## Exercises
 
-A selection of [exercises](https://ma.ttpitk.in/teaching/PHYS281/exercises/) have been created for
-you to try out and test you Python knowledge. These exercises are not marked and are voluntary. They
+A selection of [exercises](https://www.lancaster.ac.uk/staff/drummonn/PHYS281/exercises/) have been created for
+you to try out and test your Python knowledge. These exercises are not marked and are voluntary. They
 will also be used for demonstration purposes during the course lecture slots.
 
 ## Other material

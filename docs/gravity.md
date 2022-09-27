@@ -126,7 +126,7 @@ $$
 where we assume that the acceleration is approximately constant for the small duration $\Delta t$
 and the label $n$ denotes the start of this time step and $n+1$ the end of this time step. As when
 we were considering [numerical
-integration](http://ma.ttpitk.in/teaching/PHYS281/numerical-integration/) methods, this approach is
+integration](https://www.lancaster.ac.uk/staff/drummonn/PHYS281/numerical-integration/) methods, this approach is
 actually just the first couple of terms of a Taylor series expansion and we expect that there will
 be an error of order $(\Delta t)^2$ each time we apply this iterative formula, so that the
 cumulative error over a fixed time will be of order $\Delta t$. Alternative algorithms are discussed

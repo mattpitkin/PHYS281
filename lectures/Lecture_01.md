@@ -22,11 +22,11 @@ should be able to:
 # Staff 
 
 * Academics
-  * Matthew Pitkin, <m.pitkin@lancaster.ac.uk>, B054
   * Elisabetta Boella, <e.boella@lancaster.ac.uk>, A019
+  * Neil Drummond, <n.drummond@lancaster.ac.uk>, B075
 
 * Contact 
-  * Chat in Teams ([Matt](https://teams.microsoft.com/l/chat/0/0?users=m.pitkin@lancaster.ac.uk)/[Elisabetta](https://teams.microsoft.com/l/chat/0/0?users=e.boella@lancaster.ac.uk)) or via email
+  * Chat in Teams ([Elisabetta](https://teams.microsoft.com/l/chat/0/0?users=e.boella@lancaster.ac.uk)/[Neil](https://teams.microsoft.com/l/chat/0/0?users=n.drummond@lancaster.ac.uk)) or via email
   * **Note**: You can only expect help Monday to Friday from 9 to 5
 
 ---
@@ -39,7 +39,7 @@ should be able to:
 
 * Course notes are available online in html and as video demonstrations
   * Moodle course page <https://modules.lancaster.ac.uk/course/view.php?id=35041>
-  * Course notes page <https://ma.ttpitk.in/teaching/PHYS281/>
+  * Course notes page <https://www.lancaster.ac.uk/staff/drummonn/PHYS281/>
     * run the examples in the notes yourself!
 
 * Look on Moodle for the suggested reading each week (quite top heavy loaded towards the start of the
@@ -142,7 +142,7 @@ growing:
 
 * Installing/using Python 3.6, 3.7, 3.8, or 3.9 is acceptable (Python2 is not acceptable)
 * Recommend installing Python using [Anaconda](https://www.anaconda.com/distribution/)
-  * <http://ma.ttpitk.in/teaching/PHYS281/demo-anaconda/>
+  * <https://www.lancaster.ac.uk/staff/drummonn/PHYS281/demo-anaconda/>
 * By default Anaconda has the following modules required for the computing labs
   * **NumPy** <https://pypi.org/project/numpy/>
   * **SciPy** <https://pypi.org/project/scipy/>
@@ -153,7 +153,7 @@ growing:
 # Which Editor 
 
 * Recommend using [**Microsoft Visual Studio Code**](https://code.visualstudio.com/)
-  * <http://ma.ttpitk.in/teaching/PHYS281/demo-vs-code/>
+  * <https://www.lancaster.ac.uk/staff/drummonn/PHYS281/demo-vs-code/>
   * Comes with terminal integration
   * Code Checking
   * Debugger 
