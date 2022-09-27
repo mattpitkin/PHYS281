@@ -10,7 +10,7 @@ that are presented. A series of exercises are provided to test yourself on the p
 creating some code for a specific problem. These exercises are **not** part of the course
 assessment.
 
-The website was created by Matthew Pitkin, based on earlier lecture
+This website was created by Matthew Pitkin, based on earlier lecture
 notes by Iain Bertram and Robin Long.  Feedback to improve this
 website is very welcome, so if you have any questions or comments
 please contact the current module lecturers:
@@ -84,11 +84,11 @@ There are many reasons why Python is a good choice as a programming language to 
 * Python is now becoming a popular language in school, so you are more likely to have experience
   that we can build on.
 * Python is currently one of the most used languages in industry (see, e.g., the [IEEE Spectrum
-  report](https://spectrum.ieee.org/static/interactive-the-top-programming-languages-2019)).
+  report](https://spectrum.ieee.org/top-programming-languages-2022)).
 * There are a huge number of widely used and tested resources and packages out there for scientific
   computing (see, e.g.,
   [https://wiki.python.org/moin/NumericAndScientific](https://wiki.python.org/moin/NumericAndScientific)),
-  such as [NumPy](http://www.numpy.org/), [SciPy](https://www.scipy.org/) and
+  such as [NumPy](https://numpy.org/), [SciPy](https://scipy.org/) and
   [Matploltib](https://matplotlib.org/).
 * Python is portable - Python programs are cross platform and run on most computer systems in use
   today.
@@ -183,7 +183,7 @@ There are a variety of useful Python tutorials freely available online:
   on getting started with Python, covering the majority of concepts required to become a proficient user.
 * The `w3schools.com` site also offers a Python [tutorial](https://www.w3schools.com/python/default.asp)
   which provides interactive demonstrations embedded in the browser, and includes an introduction to
-  [NumPy](http://www.numpy.org/).
+  [NumPy](https://numpy.org/).
 * There is a very nice, and freely available, Software Carpentry course
   "[Plotting and Programming in Python](https://swcarpentry.github.io/python-novice-gapminder/index.html)".
 
