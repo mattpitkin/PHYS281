@@ -113,32 +113,35 @@ This course is assessed through coursework only. There is no exam.
 
 The course assessment consists of two main components:
  
-* 5 coursework assignments and quizzes over Weeks 1-5 (the weeks from that starting Oct 11th to that
-  starting Nov 8th)
-* A project over Weeks 6-10 (the weeks from that starting Nov 15th to that starting Dec 13th)
+* Five coursework assignments and quizzes over Weeks 1-5 of Michaelmas Term
+* A project over Weeks 6-10 of Michaelmas Term
 
-The 5 coursework assignments and quizzes count for 30% of the overall grade (6% each), with the
-project counting for 70%.
+The five coursework assignments and quizzes count for 30% of the
+overall grade (6% each), with the project counting for 70%.
 
-Help and guidance for the exercises and project will be provided in weekly (Weeks 1-10) computer lab
-sessions split over 3 sessions: 09:00-10:30 and 10:30-12:00 on Tuesdays and 11:30-13:00 (or
-13:00-14:30 from Week 6 onwards) on Wednesdays. All students will be assigned to one of these
-sessions. Support can also be found via the course Teams channel during these same time slots. There
-will also be an "office hours" slot for additional help held on
-[Teams](https://teams.microsoft.com/l/channel/19%3a2fc8b74ecec9415da068a9d1db998c2f%40thread.tacv2/General?groupId=6450347a-2db6-4607-b96d-5b56f586d9b5&tenantId=9c9bcd11-977a-4e9c-a9a0-bc734090164a)
-on Mondays between 10:00-11:00.
+Help and guidance for the exercises and project will be provided in
+weekly (Weeks 1-10) computer labs split over three sessions. All
+students will be assigned to one of these three sessions. Support can
+also be found via the course Teams channel during these same time
+slots. There will also be an "office hour" slot for additional help.
 
-The assignments and quizzes must be submitted on Moodle by 14:00 on the Tuesday the week after the
-associated lab session (i.e., the Week 1 assignment should be submitted no later than 14:00 on
-Tuesday of Week 2). The late submission deadline is 14:00 on Wednesday. If you
-require an extension or have a problem please contact [Elisabetta
-Boella](https://teams.microsoft.com/l/chat/0/0?users=e.boella@lancaster.ac.uk) or Neil Drummond or [Louise
-Crook](https://teams.microsoft.com/l/chat/0/0?users=l.crook@lancaster.ac.uk) via email or Teams. The
-assignments marking makes use of software called [CodeRunner](https://coderunner.org.nz/), which
-will automatically test and mark your submitted code. To avoid losing marks it is highly recommended
-that you test it on your own machine before submitting it within CodeRunner. Read the questions and
-expected inputs/outputs carefully including making sure functions/classes are named exactly as
-specified (including letter case).
+The assignments and quizzes must be submitted on Moodle by 14:00 on
+the Tuesday the week after the associated lab session (e.g., the Week
+1 assignment should be submitted no later than 14:00 on the Tuesday of
+Week 2). The late submission deadline is 14:00 on the following
+Wednesday. If you require an extension or have a problem please
+contact [Elisabetta
+Boella](https://teams.microsoft.com/l/chat/0/0?users=e.boella@lancaster.ac.uk)
+or [Neil
+Drummond](https://teams.microsoft.com/l/chat/0/0?users=n.drummond@lancaster.ac.uk)
+or [Louise
+Crook](https://teams.microsoft.com/l/chat/0/0?users=l.crook@lancaster.ac.uk)
+via email or Teams. Submitted code will be tested and marked
+automatically using a Moodle plugin. To avoid losing marks it is
+highly recommended that you test your code on your own machine before
+submitting it on Moodle. Read the questions and expected
+inputs/outputs carefully, including making sure functions/classes are
+named *exactly* as specified (including letter case).
 
 The project grade is split between several components:
 
@@ -146,9 +149,11 @@ The project grade is split between several components:
 * The written project report (30%)
 * The project code (30%)
 
-The [project](https://www.lancaster.ac.uk/staff/drummonn/PHYS281/gravity/) aim is to create and test an n-body
-gravitationally interacting system (i.e., the Solar System). The two exercises provide a basis on
-which to build up to the full n-body simulation.
+The
+[project](https://www.lancaster.ac.uk/staff/drummonn/PHYS281/gravity/)
+aim is to create and test an $n$-body gravitationally interacting
+system (e.g., the Solar System). The two exercises provide a basis on
+which to build up to the full $n$-body simulation.
 
 ## Prerequisites
 
