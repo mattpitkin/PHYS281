@@ -40,7 +40,7 @@ should be able to:
 * learn how to debug computer programs;
 * design and write programs to solve numerical problems.
 
-Programming is a skill. While there is a syntax that that you have to learn, the skill is mainly
+Programming is a skill. While there is a syntax that you have to learn, the skill is mainly
 acquired through practice, i.e., actually writing and running code.
 
 ## What is Python?

@@ -396,7 +396,7 @@ plt.show()
 An alternative is to the use
 [`scatter`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.scatter.html?highlight=scatter#matplotlib.pyplot.scatter)
 function in `pyplot`. This adds the ability to add an additional dimension of information to the
-plot in the form the the size and/or colour of the points, using the `s` and `c` keyword arguments,
+plot in the form the size and/or colour of the points, using the `s` and `c` keyword arguments,
 respectively. For example,
 
 ```python

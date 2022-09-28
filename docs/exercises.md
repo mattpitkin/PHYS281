@@ -321,7 +321,7 @@ aim is for you to think about how you would code up the function yourself.
     ```
 
 !!! question "Part 2"
-    Add a new particle and it's charge to the dictionary.
+    Add a new particle and its charge to the dictionary.
 
 ??? info "Solution"
 
@@ -330,7 +330,7 @@ aim is for you to think about how you would code up the function yourself.
     ```
 
 !!! question "Part 2"
-    Find the number of positively charges particles in the dictionary and get a list of their
+    Find the number of positively charged particles in the dictionary and get a list of their
     names.
 
 ??? info "Solution"
@@ -399,7 +399,7 @@ aim is for you to think about how you would code up the function yourself.
 !!! question
     Suppose you have a set of files containing the results of multiple consecutive
     experiments/simulations. To distinguish the files each file name is suffixed by an integer with
-    preceding zeros, such the the number is always 3 digits long (assuming no more than 1000 files
+    preceding zeros, such the number is always 3 digits long (assuming no more than 1000 files
     exist), e.g.,:
 
     ```
@@ -520,7 +520,7 @@ aim is for you to think about how you would code up the function yourself.
     ```
 
 !!! question "Part 3"
-    Write a function that that takes in list of numbers as an argument and returns the median.
+    Write a function that takes in list of numbers as an argument and returns the median.
 
 ??? info "Solution"
     An example of how to do this is:
@@ -1299,7 +1299,7 @@ aim is for you to think about how you would code up the function yourself.
     --8<-- "docs/exercises/plot_density.py"
     ```
 
-    A different way of reading the the `data_description.txt` file could be done with:
+    A different way of reading the `data_description.txt` file could be done with:
 
     ```python
     lims = {}
@@ -1327,7 +1327,7 @@ aim is for you to think about how you would code up the function yourself.
     and the object's [magnitude](https://en.wikipedia.org/wiki/Magnitude_(astronomy)). Upon
     initialisation the class should take in a single argument, which is a dictionary keyed to
     object names with their magnitudes as the values. By default it should be initialised with an
-    empty dictionary if nothing is passed to it. It should raise an error if the supplied with
+    empty dictionary if nothing is passed to it. It should raise an error if supplied with
     something other than a dictionary.
 
     The class should have a method for adding in new objects, and methods for returning lists of
@@ -1808,7 +1808,7 @@ aim is for you to think about how you would code up the function yourself.
 ### Exercise {{ counter() }}
 
 !!! question
-    Estimate the value of $\pi$ using a Monte-Carlo method (i.e., through drawing random numbers).
+    Estimate the value of $\pi$ using a Monte Carlo method (i.e., through drawing random numbers).
 
 ??? info "Solution"
     A potential solution, based on the ratio of the area of a square with sides 2 units long

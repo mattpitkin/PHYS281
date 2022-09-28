@@ -108,7 +108,7 @@ electron mass = 9.1e-31
 proton mass = 1.7e-27
 ```
 
-The `__init__` method of a class can can have @(positional arguments) and/or @(keyword arguments),
+The `__init__` method of a class can have @(positional arguments) and/or @(keyword arguments),
 just like any other function. Using keyword arguments allows the setting of default initialisation
 values if no user supplied values are given, e.g.,
 

@@ -296,10 +296,10 @@ print(𝜋)
 3.14
 ```
 
-Strings are defined using quotation marks or apostrophe's, so what if you want to use a quotation
+Strings are defined using quotation marks or apostrophes, so what if you want to use a quotation
 mark or apostrophe within a string?
 
-If you have a string that you define using quotation marks then you can use apostrophe's within it,
+If you have a string that you define using quotation marks then you can use apostrophes within it,
 and vice versa:
 
 ```python

@@ -103,8 +103,8 @@ $$
 
 ## Trapezium Rule
 
-The trapezium rule states that you can approximate the area under a curve by a trapezium, as shown
-in in the figure below. 
+The trapezium rule states that you can approximate the area under a
+curve by a trapezium, as shown in the figure below.
 
 ![*A straight line is used to approximate the curve $f(x)$ between $x_1$ and $x_2$. This forms a
 trapezium (shaded area) which can be used to calculate approximately the area under the curve

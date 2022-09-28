@@ -223,7 +223,7 @@ Traceback (most recent call last):
 TypeError: I really do only like integers!
 ```
 
-You can also "catch" exceptions raised by by other functions and handle them how you want. For
+You can also "catch" exceptions raised by other functions and handle them how you want. For
 example, you may not want your code to fail if a certain exception is raised, but instead do
 something different:
 

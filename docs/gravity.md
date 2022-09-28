@@ -93,7 +93,7 @@ $$
 $$
 
 In this simple example the acceleration is constant and we can of course just solve the equations
-analytically to give the the basic equations of motion for constant, uniform acceleration (i.e.
+analytically to give the basic equations of motion for constant, uniform acceleration (i.e.
 there is no spatial or temporal dependence). The familiar equations are:
 
 $$

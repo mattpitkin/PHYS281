@@ -55,7 +55,7 @@ _Anaconda Navigator_. Alternatively, it can be opened via a standard way of open
     * Start _Anaconda Navigator_, e.g., in Windows click on the start :fontawesome-brands-windows:
       button and find and click on the "Anaconda3 (64-bit)" menu, then click on "Anaconda
       Navigator (anaconda3)".
-    * In the ":fontawesome-solid-home: Home" tab, choose the environment you want to use by
+    * In the ":fontawesome-solid-house: Home" tab, choose the environment you want to use by
       selecting it in the "Application on" dropdown menu (defaulting to `base (root)`).
     * Scroll to find the ":material-microsoft-visual-studio-code: VS Code" application panel and
       click the ++"Launch"++ button.
@@ -85,7 +85,7 @@ panels (clicking again will close the panel):
 
 * :fontawesome-regular-copy:: open the "Explorer" panel showing any currently open
   files.
-* :fontawesome-solid-search:: open the "Search" panel to perform "find-and-replace"
+* :fontawesome-solid-magnifying-glass:: open the "Search" panel to perform "find-and-replace"
   in a file.
 * :fontawesome-solid-code-branch:: open the "Source Control" panel, which is useful if you
   code is under [version control](https://en.wikipedia.org/wiki/Version_control), e.g., git,
@@ -94,7 +94,7 @@ panels (clicking again will close the panel):
   your current file.
 * :fontawesome-solid-border-all:: open "Extensions" panel to allow you to install _VS Code_
   [extensions](https://code.visualstudio.com/docs/introvideos/extend).
-* :fontawesome-solid-cog:: open the settings manager.
+* :fontawesome-solid-gear:: open the settings manager.
 
 Along the top are various dropdown menus, with the "File" menu providing options for creating new
 files, opening existing files and saving files.

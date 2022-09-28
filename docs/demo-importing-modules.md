@@ -47,10 +47,11 @@ print(date.today())
 
 But, this runs more risk of clashing names.
 
-As the module definition states, you can import from any Python file, where a Python file is one
-saved with the "`.py`" @(file extension), e.g., `myfunctions.py` (it's best have have file names
-that are representative of the contents). If we had a file called `message.py` with the following
-content:
+As the module definition states, you can import from any Python file,
+where a Python file is one saved with the "`.py`" @(file extension),
+e.g., `myfunctions.py` (it's best to have file names that are
+representative of the contents). If we had a file called `message.py`
+with the following content:
 
 ```python
 def message_in_box(a):

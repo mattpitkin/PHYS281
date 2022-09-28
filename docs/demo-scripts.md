@@ -12,9 +12,11 @@ interpreted by Python line-by-line in order from the first line to the last.
     required bits imported into a main script (see the tutorial on [importing
     modules](../demo-importing-modules/index.html)).
 
-A Python script file must have the `.py` suffix @(file extension). File names can be anything that
-your operating system allows, but it is recommended that they be short and descriptive of what the
-script is designed to do. It is also good practice to not have blank spaces in file names.
+A Python script file usually has the `.py` suffix @(file
+extension). File names can be anything that your operating system
+allows, but it is recommended that they be short and descriptive of
+what the script is designed to do. It is also good practice to not
+have blank spaces in file names.
 
 ## Example script
 

@@ -70,7 +70,7 @@ are often used interchangeably.
 
 !!! note
     In a Mac OS/Linux terminal there are a variety of different @(shells) that you can use with
-    slightly different syntaxes and abilities (shell's are themselves coding languages), but on
+    slightly different syntaxes and abilities (shells are themselves coding languages), but on
     most distributions the default shell is called
     [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)).
 

@@ -34,7 +34,7 @@ To quit the Python session and return to the regular terminal, type `quit()` and
 
 Rather than the standard Python terminal, it is recommended to instead use the enhanced interactive
 terminal, [IPython](https://ipython.org/), which offers more features for ease of use. IPython is
-started by typing `ipython` and hitting ++return++. Now you should see something like:
+started by typing `ipython` (or `ipython3`) and hitting ++return++. Now you should see something like:
 
 ```ipython
 Python 3.7.2 (default, Dec 29 2018, 06:19:36) 
@@ -300,7 +300,7 @@ In [1]: x = 1
 In [2]: x.<TAB>
 ```
 
-where `<TAB>` is replaced by hitting the tab key ++tab++, you get a scrollable list of of attributes
+where `<TAB>` is replaced by hitting the tab key ++tab++, you get a scrollable list of attributes
 of the object.
 
 Or, you can use it to complete file strings. For example, if you are writing a string that is a file

@@ -425,7 +425,6 @@ and return just the values using the `values` method:
 
 ```python
 print(x.values())
-dict_keys(['firstname', 'lastname', 'age'])
 dict_values(['Matthew', 'Pitkin', 39])
 ```
 

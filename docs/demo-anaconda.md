@@ -60,11 +60,11 @@ On Lancaster University machines on campus, Anaconda can be accessed through App
 
     Once installed, click on the Windows start button (the :fontawesome-brands-windows: in the
     bottom left of the screen), and the menu should now contain "Anaconda3 (64-bit)", which can
-    be clicked on to reveal several installed programmes.
+    be clicked on to reveal several installed programs.
 
     ![Anaconda start menu](img/anaconda-start-menu.png)
 
-    Alternatively, type "Anaconda" into the search bar to see the installed programmes.
+    Alternatively, type "Anaconda" into the search bar to see the installed programs.
 
 === "Installation on Mac OS"
     * Visit [https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual)
@@ -85,7 +85,7 @@ On Lancaster University machines on campus, Anaconda can be accessed through App
     which we summarise below.
 
     !!! note
-        The command line programme that gets installed by Miniconda is just called `conda`, which
+        The command line program that gets installed by Miniconda is just called `conda`, which
         will be used in some of the examples below.
 
     The instructions below are those for installation via command line only.
@@ -149,7 +149,7 @@ On Lancaster University machines on campus, Anaconda can be accessed through App
 
 ## Anaconda Navigator
 
-If you have installed the full Anaconda package a programme called "_Anaconda Navigator_" will be
+If you have installed the full Anaconda package a program called "_Anaconda Navigator_" will be
 available to use. It allows you to launch a range of applications, create new environments
 containing different Python packages, and install new packages.
 
@@ -160,10 +160,10 @@ containing different Python packages, and install new packages.
 
     ![Anaconda Navigator](img/anaconda-navigator.png)
 
-    It will open within the ":fontawesome-solid-home: Home" tab and show a set of applications
+    It will open within the ":fontawesome-solid-house: Home" tab and show a set of applications
     that can be launched. The most relevant of these for this course is:
     
-     * Powershell Prompt: this opens a @(terminal) programme for running commands.
+     * Powershell Prompt: this opens a @(terminal) program for running commands.
     
     !!! note
         After installing _VS Code_ (a text editor that is useful for writing code) as described
@@ -197,7 +197,7 @@ line) in a @(terminal) are given below:
 === "Anaconda Navigator"
     After opening _Anaconda Navigator_ (as described above) click on the
     ":fontawesome-solid-dice-d6: Environments" tab on the left hand side of the screen. At the
-    bottom of the middle panel click on the "Create" :fontawesome-solid-plus-square: button to
+    bottom of the middle panel click on the "Create" :fontawesome-solid-square-plus: button to
     open up a new dialogue box:
 
     ![Anaconda Navigator create environment](img/anaconda-navigator-create.png)
@@ -209,7 +209,7 @@ line) in a @(terminal) are given below:
 
 === "Terminal"
     A new environment can be create using a @(terminal) (e.g., the Anaconda Powershell prompt in
-    Windows or the default terminal programme on Mac OS or Linux). To start open the terminal (in
+    Windows or the default terminal program on Mac OS or Linux). To start open the terminal (in
     Windows use the start menu or search bar to find "Anaconda Powershell Prompt", or launch it via
     the _Anaconda Navigator_).
 
@@ -239,7 +239,7 @@ Once a new environment has been created you can then run code within it making u
 Python version and packages installed within it.
 
 === "Anaconda Navigator"
-    Within the _Anaconda Navigator_ ":fontawesome-solid-home: Home" tab you can switch between
+    Within the _Anaconda Navigator_ ":fontawesome-solid-house: Home" tab you can switch between
     environments using the dropdown menu next to "Applications on":
 
     ![Anaconda Navigator use environment](img/anaconda-navigator-use.png)
