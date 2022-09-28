@@ -1029,7 +1029,7 @@ aim is for you to think about how you would code up the function yourself.
         # get indices of x-array with the [a, b] range
         idx = np.argwhere((x > a) & (x < b))
 
-        # fill in indicies with a triangle
+        # fill in indices with a triangle
         vals[idx] = C - np.abs(grad * (x[idx] - mid))
 
         return vals
@@ -1500,7 +1500,7 @@ aim is for you to think about how you would code up the function yourself.
     
     It should include two methods that:
 
-    1. return the black body's [bolometic luminosity](https://en.wikipedia.org/wiki/Luminosity#Luminosity_formulae),
+    1. return the black body's [bolometric luminosity](https://en.wikipedia.org/wiki/Luminosity#Luminosity_formulae),
     2. return the wavelength at which the emission peaks ([Wien's Law](https://en.wikipedia.org/wiki/Wien%27s_displacement_law)) in nanometres.
 
 ??? info "Solution"
@@ -1533,7 +1533,7 @@ aim is for you to think about how you would code up the function yourself.
                 raise TypeError("Temperature must be a number")
 
             if T <= 0:
-                raise ValueError("Temperature must be a posiive number")
+                raise ValueError("Temperature must be a positive number")
 
             self.T = float(T)
 
@@ -1542,7 +1542,7 @@ aim is for you to think about how you would code up the function yourself.
                 raise TypeError("Radius must be a number")
 
             if radius <= 0:
-                raise ValueError("Radius must be a posiive number")
+                raise ValueError("Radius must be a positive number")
 
             self.radius = float(radius)
 
@@ -1568,7 +1568,7 @@ aim is for you to think about how you would code up the function yourself.
 ### Exercise {{ counter() }}
 
 !!! question "Part 1"
-    Create a class to define `Square` objects. The class should be intialised using a tuple or list
+    Create a class to define `Square` objects. The class should be initialised using a tuple or list
     that contains four pairs (also tuples or lists) of $x$ and $y$ coordinates for the corners of
     the square, which should then be stored in th class. The class should contain a method to check
     that the input points define a valid square (i.e. all sides are the same length and all angles
@@ -1860,7 +1860,7 @@ These exercises are very much just for fun if you fancy something a bit more cha
 ### Exercise {{ counter() }}
 
 !!! question
-    Write a class that implements a tic-tac-toe game.
+    Write a class that implements a noughts-and-crosses game.
 
 ??? info "Solution"
     A potential solution is:

@@ -11,9 +11,9 @@ creating some code for a specific problem. These exercises are **not** part of t
 assessment.
 
 This website was created by Matthew Pitkin, based on earlier lecture
-notes by Iain Bertram and Robin Long.  Feedback to improve this
-website is very welcome, so if you have any questions or comments
-please contact the current module lecturers:
+notes by Iain Bertram, Robin Long and Brooke Simmons.  Feedback to
+improve this website is very welcome, so if you have any questions or
+comments please contact the current module lecturers:
 
 * Dr Elisabetta Boella, [e.boella@lancaster.ac.uk](mailto:e.boella@lancaster.ac.uk) ([Chat on MS Teams](https://teams.microsoft.com/l/chat/0/0?users=e.boella@lancaster.ac.uk))
 * Neil Drummond, [n.drummond@lancaster.ac.uk](mailto:n.drummond@lancaster.ac.uk) ([Chat on MS Teams](https://teams.microsoft.com/l/chat/0/0?users=n.drummond@lancaster.ac.uk))
@@ -67,7 +67,7 @@ things that you use within a code are objects; these are things that can contain
 functions that can perform specific tasks on that data.
 
 There have been several versions of Python as the language gets updated and new features added. The
-latest major version is Python 3, with Python 3.8 being a recent stable release. While most Python
+latest major version is Python 3, with Python 3.10 being a recent stable release. While most Python
 code is fairly backwards compatible, i.e., can run with previous versions of the language, there are
 some specific features that are not. Broadly speaking, code written based on Python 3.5 or above
 should be compatible and in this course we will not use any syntax that does not work across these
@@ -96,8 +96,7 @@ There are many reasons why Python is a good choice as a programming language to 
   driving its growth.
 * Python is currently used by many academics in the department.
 
-In the [TIOBE](https://www.tiobe.com/tiobe-index/) index Python popularity and usage is still
-growing:
+In the [TIOBE](https://www.tiobe.com/tiobe-index/) index Python popularity and usage is growing:
 
 | Sep 2021 | Sep 2020 | Change | Programming Language | Ratings | Change |
 | -------- | -------- | ------ | -------------------- | ------- | ------ |
@@ -191,7 +190,7 @@ There are a variety of useful Python tutorials freely available online:
 
 * **Python and Matplotlib Essentials for Scientists and Engineers**, Matt Wood, IoP Publishing, 2015
   [http://iopscience.iop.org/book/978-1-6270-5620-5](http://iopscience.iop.org/book/978-1-6270-5620-5):
-  this book is freely available as a pdf from the IoP website. Note that this book is written based
+  this book is freely available as a PDF from the IoP website. Note that this book is written based
   on Python 2 rather than Python 3, so minor differences will be present.
 * **Python Data Science Handbook**, Jake VanderPlas, O'Reilly,
   [https://jakevdp.github.io/PythonDataScienceHandbook/](https://jakevdp.github.io/PythonDataScienceHandbook/):

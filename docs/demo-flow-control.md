@@ -66,7 +66,7 @@ print(b)
 ```python
 x = True
 if x is True:
-# we've forgetten any indentation!
+# we've forgotten any indentation!
 print("x is True")
 IndentationError: expected an indented block
 

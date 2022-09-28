@@ -54,7 +54,7 @@ code, sensible spacing, sensible line lengths.
 Describe how to define and use functions in Python, including indentation.
 Discuss function arguments including positional arguments and keyword arguments.
 Describe returning things from functions and how to return and capture multiple
-values. (NOte the difference between printing something to screen and returning a value)
+values. (Note the difference between printing something to screen and returning a value)
 
 Show a docstring for a function.
 
@@ -87,11 +87,11 @@ but do not have access the class attributes).
 
 Show basics of file IO. The open function for reading a writing a plain text file.
 
-### Numpy and scipy
+### NumPy and SciPy
 
-Show some of the basic of numpy, mainly focusing the use of numpy arrays.
+Show some of the basic of NumPy, mainly focusing the use of NumPy arrays.
 
-Some random number generation. Some basic fitting. Show basic IO with numpy (maybe mention pandas).
+Some random number generation. Some basic fitting. Show basic IO with NumPy (maybe mention pandas).
 
 ### Plotting with Matplotlib
 

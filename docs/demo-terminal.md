@@ -188,10 +188,10 @@ $ cd ..
     ```
     
     A `d` at the start of the attributes indicates a directory, while a `-` is a file. The other
-    letters (`r`, `w`, and `x`) represent whether, and by whom, the files are readable, writeable
+    letters (`r`, `w`, and `x`) represent whether, and by whom, the files are readable, writable
     and executable, respectively.
 
-    To colourise the output, i.e., give files and directories different colors depending on their
+    To colourise the output, i.e., give files and directories different colours depending on their
     types the `--color=auto` flag can be used.
 
     To list the contents of a particular directory supply either the relative or absolute path, e.g.,:

@@ -407,7 +407,7 @@ y = np.random.randn(200)
 # third dimension
 z = 10 / np.sqrt(x ** 2 + y ** 2)
 
-# plot data using scatter, with size and color representing "z" data
+# plot data using scatter, with size and colour representing "z" data
 plt.scatter(x, y, s=z, c=z)
 plt.colorbar()
 plt.xlabel("x")
@@ -430,7 +430,7 @@ function has been used to add a colour bar on the right hand side representing t
     y = np.random.randn(200)
     z = 10 / np.sqrt(x ** 2 + y ** 2)
 
-    # plot data using scatter, with color representing "z" data
+    # plot data using scatter, with colour representing "z" data
     plt.scatter(x, y, c=z)
 
     # overplot a line plot
@@ -632,7 +632,7 @@ function in `pyplot`.
     There is also the simpler
     [`figure`](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.figure.html#matplotlib.pyplot.figure)
     function, but `subplots` can work in the same way as `figure`, but also allows multiple plots
-    as discussed [below](#mulitple-plots-in-a-figure).
+    as discussed [below](#multiple-plots-in-a-figure).
 
 You can create a single figure with `subplots` using:
 
@@ -646,7 +646,7 @@ object (in the variable `fig` here) and an
 [`Axes`](https://matplotlib.org/api/axes_api.html#matplotlib.axes.Axes) object (in the variable `ax`
 here).
 
-Data can be added to the figure throught the `Axes` object which has methods for all of the `pyplot`
+Data can be added to the figure through the `Axes` object which has methods for all of the `pyplot`
 plotting functions discussed above (e.g., `plot`, `scatter` and `hist`):
 
 ```python
@@ -821,6 +821,6 @@ fig.savefig("myfigure.png")
 !!! note
     Any changes you make to `rcParams` in a script or Python terminal session will only be applied
     to that script/session. If you start a new session, or run a new script, the original defaults
-    will be reverted too. To keep the defaults across mutiple runs/scripts you can define your own
+    will be reverted too. To keep the defaults across multiple runs/scripts you can define your own
     custom [configuration file](https://matplotlib.org/tutorials/introductory/customizing.html#the-matplotlibrc-file)
     or [style file](https://matplotlib.org/tutorials/introductory/customizing.html#defining-your-own-style).

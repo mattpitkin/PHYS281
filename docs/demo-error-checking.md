@@ -193,7 +193,7 @@ Trying to open a file that does not exist will raise a
 [`FileNotFoundError`](https://docs.python.org/3/library/exceptions.html#FileNotFoundError):
 
 ```{.py3 hl_lines="6"}
-# try opening a non-existant file
+# try opening a non-existent file
 with open("blah.txt", "r") as fp:
     fp.readlines()
 Traceback (most recent call last):

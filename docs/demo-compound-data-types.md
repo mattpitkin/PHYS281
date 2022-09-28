@@ -68,7 +68,7 @@ print(x)
 ```
 
 !!! note
-    This is ok for initialising lists of numbers of strings, but it can be dangerous to initilise
+    This is ok for initialising lists of numbers of strings, but it can be dangerous to initialise
     lists of compound data type in this way; each item in the list will "point" to the same object,
     so they are not independent copies, e.g., if creating a list of lists initialised to zero with
 

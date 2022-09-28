@@ -72,7 +72,7 @@ of marks between the different attributes are given in brackets.
 
 !!! note
     You _can_ write your project without making use of Python classes at all. In terms of marking
-    the code "style", to get the highest grades withouth using classes the other aspects of the
+    the code "style", to get the highest grades without using classes the other aspects of the
     code style must be shown to a higher level, i.e., the code documentation must be present and
     informative, the structure of the code must be sensible and well thought out, the data must be
     stored within the code in a clear and sensible way.
@@ -81,7 +81,7 @@ of marks between the different attributes are given in brackets.
 
 The report should be **no more than 10 pages long** including pictures (but excluding title page,
 abstract and references). You do not need to include code within the report. The report can be
-written in whatever software you prefer (e.g., LaTeX or Word), but you **must** submit a **pdf**
+written in whatever software you prefer (e.g., LaTeX or Word), but you **must** submit a **PDF**
 file for marking on Moodle [here](https://modules.lancaster.ac.uk/mod/assign/view.php?id=1700680).
 If using LaTeX an example template file is available on Moodle and you may want to make use of
 online services such as [Overleaf](https://overleaf.com) or [Authorea](https://www.authorea.com/)
@@ -94,7 +94,7 @@ Make sure figures you include are legible, i.e., they have large enough label an
 readable and they use distinguishable lines or markers. Within the report figures should be
 captioned to briefly describe what they show and they should be numbered and referred to in the text
 (do not include figures if you are not going to describe and refer to them in the text of the
-report). If using LaTeX it is good to save your figures using Matplotlib directly as pdfs rather
+report). If using LaTeX it is good to save your figures using Matplotlib directly as PDFs rather
 than converting between png/jpg and pdf. If saving as png/jpg use a `dpi` equal to 150 or more to
 give good quality images.
 

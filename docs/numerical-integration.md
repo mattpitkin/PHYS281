@@ -143,7 +143,7 @@ approach.
 trapezium. Summing the area of these trapezia gives an approximation of the total area under the
 curve between $a$ and $b$.*](img/trapint2.png)
 
-We can generalise this 'extended trapezium' or 'compound trapezium' rule to $N$ trapeziums (with boundaries running from $x_1$ to $x_{N+1}$) giving
+We can generalise this 'extended trapezium' or 'compound trapezium' rule to $N$ trapezia (with boundaries running from $x_1$ to $x_{N+1}$) giving
 
 $$
 \begin{aligned}

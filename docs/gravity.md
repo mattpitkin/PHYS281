@@ -381,7 +381,7 @@ following:
 * For "Coordinate Origin" (which will appear when you switch to the "Vector Table" above) leave it
   as "**Solar System Barycenter** (**SSB**) [500@0]". This is the centre of mass of the entire Solar
   System.
-* For "Time Span" you can leave it as it is, which will qdefault to today, or click "change" to
+* For "Time Span" you can leave it as it is, which will default to today, or click "change" to
   specify a start date, end date and time step between outputs. Make sure to use the same start time
   for all the bodies in your simulation.
 * For "Table Settings" click "change", then in the "Select vector table output" drop down menu
@@ -549,7 +549,7 @@ pos, vel = get_body_barycentric_posvel("sun", t, ephemeris="jpl")
 ```
 
 Note: The first time you run this it will download an ephemeris file. Subsequently, the file will
-not be redownloaded as it should be locally cached. This file only contains the position of the Sun
+not be re-downloaded as it should be locally cached. This file only contains the position of the Sun
 and planets (including the Moon and Pluto), but not any other solar system bodies.
 
 The valid body names that you can pass to `get_body_barycentric_posvel` are:
@@ -595,7 +595,7 @@ trans = sxform("J2000", "ECLIPJ2000", t.jd)
 # transform state vector to ecliptic
 statevececl = mxvg(trans, statevec, 6, 6)
 
-# get positions and velocties
+# get positions and velocities
 position = [statevececl[0], statevececl[1], statevececl[2]]
 velocity = [statevececl[3], statevececl[4], statevececl[5]]
 ```

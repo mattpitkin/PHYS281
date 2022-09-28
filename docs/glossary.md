@@ -25,7 +25,7 @@ The addition [operator](#operator), i.e., used for getting the sum of two values
 
 ## `-`
 
-The subtraction [operator](#operator), i.e., used for getting the different beteween two
+The subtraction [operator](#operator), i.e., used for getting the difference between two
 values/objects.
 
 ## `/`
@@ -159,7 +159,7 @@ For example, in `myscript.py` the file extension is `py` and shows this is a Pyt
 A class for defining a [floating point number](#floating-point-number). Python automatically
 recognises variables set with numbers containing decimal places or exponential notation to be
 floating point numbers, e.g., in `y = -9.7` the variable `y` will be a `float` type, which is
-equivalent to explicity saying `y = float(-9.7)`.
+equivalent to explicitly saying `y = float(-9.7)`.
 
 ## Floating point number
 
@@ -322,7 +322,7 @@ be used to generate a slice.
 ## String
 
 In programming a string generally refers to a [variable](#variable) type that holds some text, i.e.,
-a series of alphanumerical characters. In Python, strings are defined by text enclosed within
+a series of alphanumeric characters. In Python, strings are defined by text enclosed within
 apostrophes, quotation marks, or a series of three apostrophes/quotation marks, e.g., `x = 'Hello'`,
 `x = "Hello"` and `x = """Hello"""` are all equivalent ways of defining a string.
 
