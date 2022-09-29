@@ -33,14 +33,14 @@ error:
   simulation due to approximations, etc. However, it does not guarantee that the simulation will
   have the same size of error when it is applied to a regime for which there is not an analytical
   solution.
-- Apply the simulation to a system for which there is experimental data so that the simulation can
+- Apply the simulation to a system for which there are experimental data so that the simulation can
   be directly tested against reality. In some ways this is of course what physics is all about and
-  so is a good approach. The difficulty here is that experimental data often contains many
+  so is a good approach. The difficulty here is that experimental data often contain many
   additional subtle effects which may not be in your simulation so it may not be easy to understand
   where any discrepancies come from.
 - For a range of systems, consider whether the simulation conserves quantities that you would expect
   to be conserved, e.g., energy, or total linear or angular momentum. Although conservation of
-  energy, etc does not guarantee that the details of the simulation are accurate, it provides a
+  energy, etc., does not guarantee that the details of the simulation are accurate, it provides a
   quick global check of the simulation's properties.
 
 You are going to want to consider carefully how to use these approaches to assess the accuracy of
@@ -66,7 +66,7 @@ flat as long as we consider fairly short trajectories. Later on we can remove th
 
 In this case we can represent the approximate acceleration by:
 $$
-  \vec{a} = g = -9.81 \hat{j}  \, {\mathrm m} {\mathrm s}^{-2}.
+  \vec{a} = g = -9.81 \hat{j} ~ \mathrm{m} \, \mathrm{s}^{-2}.
 $$
 
 To characterise the motion of a particle in this uniform gravitational field we will need to be able
@@ -75,11 +75,11 @@ of time, $t$.
 
 For many (although not all) physical systems we can write the velocity as
 $$
-  \vec{v}(t) = \int^{t} \vec{a}(\vec{x}, t) dt,
+  \vec{v}(t) = \int^{t} \vec{a}(\vec{x}, t) \, dt,
 $$
 and position as
 $$
-  \vec{x}(t) = \int^{t} \vec{v}(\vec{x}, t) dt,
+  \vec{x}(t) = \int^{t} \vec{v}(\vec{x}, t) \, dt,
 $$
 where $\vec{a}(t)$ is the acceleration of the particle and we have restricted ourselves here to
 considering a single particle. Equivalently, these can be written as a pair of differential
@@ -98,12 +98,12 @@ there is no spatial or temporal dependence). The familiar equations are:
 
 $$
 \begin{align}
-  \vec{v} & =  \vec{v_{0}} + \vec{a} t \\
-  \vec{x} & =  \vec{x_{0}} + \vec{v_{0}} t + \frac{1}{2} \vec{a} t^{2}
+  \vec{v} & =  \vec{v}_{0} + \vec{a} t \\
+  \vec{x} & =  \vec{x}_{0} + \vec{v}_{0} t + \frac{1}{2} \vec{a} t^{2}
 \end{align}
 $$
 
-where the initial position and velocity at time $t=0$ are given by $\vec{x_{0}}$ and $\vec{v_{0}}$,
+where the initial position and velocity at time $t=0$ are given by $\vec{x}_{0}$ and $\vec{v}_{0}$,
 respectively. As long as the acceleration is constant and uniform, these equations will be accurate
 and hence our simulation will not be very interesting.
 
@@ -128,7 +128,7 @@ and the label $n$ denotes the start of this time step and $n+1$ the end of this 
 we were considering [numerical
 integration](https://www.lancaster.ac.uk/staff/drummonn/PHYS281/numerical-integration/) methods, this approach is
 actually just the first couple of terms of a Taylor series expansion and we expect that there will
-be an error of order $(\Delta t)^2$ each time we apply this iterative formula, so that the
+be an error of order $\Delta t^2$ each time we apply this iterative formula, so that the
 cumulative error over a fixed time will be of order $\Delta t$. Alternative algorithms are discussed
 later, but for now the Euler algorithm will suffice.
 
@@ -137,18 +137,17 @@ then we can take into account the variation of acceleration due to gravity with 
 Earth's centre $r$ using
 
 $$
-\vec{g} = -\frac{G M_E}{r^2} \hat{r}
+\vec{g} = -\frac{G M_\mathrm{E}}{r^2} \hat{r}
 $$
 
-for values of $r$ greater than the Earth's radius $R_E= 6380\,\mathrm{km}$. The mass of the Earth is
-given approximately by $M_E = 5.974\!\times\!10^{24}\,\mathrm{kg}$ and $G$ is the gravitational
+for values of $r$ greater than the Earth's radius $R_\mathrm{E}= 6380\,\mathrm{km}$. The mass of the Earth is
+given approximately by $M_\mathrm{E} = 5.974\!\times\!10^{24}\,\mathrm{kg}$ and $G$ is the gravitational
 constant.
 
 Care must be taken when defining the direction of the field or you could easily end up simulating
 anti-gravity!
 
-From this point on you are entirely free to develop your simulation in any way you wish but do skip
-ahead and read the project description thoroughly first! The next two sections detail one way in
+From this point on you are entirely free to develop your simulation in any way you wish, but **please read the project description thoroughly first!** The next two sections detail one way in
 which you could develop your code with a view to developing a simulation of the Solar System, but
 you can pick another goal.
 
@@ -160,7 +159,7 @@ rather than jump immediately to this scenario we could also consider the followi
 the acceleration at the surface of the Earth is given by:
 
 $$
-\vec{g} = -\frac{G M_E}{R^{2}_E} \hat{r}.
+\vec{g} = -\frac{G M_\mathrm{E}}{R^{2}_\mathrm{E}} \hat{r}.
 $$
 
 We could simulate the path of a projectile dropped from the Earth's surface into a hole that runs
@@ -173,14 +172,14 @@ gravitational field we need the mass of the part of the Earth contained within a
 $r$ such that:
 
 $$
-\frac{m}{M_E} = \frac{\frac{4}{3} \pi r^{3}}{\frac{4}{3}\pi R^3_E} = \frac{r^3}{R^3_E}.
+\frac{m}{M_\mathrm{E}} = \frac{\frac{4}{3} \pi r^{3}}{\frac{4}{3}\pi R^3_\mathrm{E}} = \frac{r^3}{R^3_\mathrm{E}}.
 $$
 
 So the gravitational field will be given by:
 
 $$
-\vec{g} = -\frac{Gm}{r^2}\hat{r} = -G \frac{M_E}{r^2} \frac{r^3}{R^3_E}\hat{r}
-  = -G \frac{M_E}{R^3_E}r \hat{r}
+\vec{g} = -\frac{Gm}{r^2}\hat{r} = -G \frac{M_\mathrm{E}}{r^2} \frac{r^3}{R^3_\mathrm{E}}\hat{r}
+  = -G \frac{M_\mathrm{E}}{R^3_\mathrm{E}}r \hat{r}
 $$
 
 Hopefully it is clear from this result that we would expect the motion of a projectile dropped into
@@ -199,7 +198,7 @@ Consider the case of $N$ massive particles moving under the influence of each ot
 net acceleration of a particle with mass $m_i$ will be given by
 
 $$
-\vec{a_i} = \sum^{N}_{j\neq i}{\frac{-Gm_j}{|r_{ij}|^2} \hat{r}_{ij}},
+\vec{a}_i = \sum^{N}_{j\neq i}{\frac{-Gm_j}{|\vec{r}_{ij}|^2} \hat{r}_{ij}},
 $$
 
 where $\vec{r}_{ij}$ is the displacement vector from the $j^{\mathrm{th}}$ mass to the
@@ -213,13 +212,13 @@ taken) our code will violate Newton's third law. This is unlikely to be a good i
 For a single dimension, e.g., in the $x$-dimension, the above equation would give:
 
 $$
-{a_x}_i = \sum^N_{j \neq i} \frac{-G m_j}{|r_{ij}|^2}\frac{({r_x}_i - {r_x}_j)}{|r_{ij}|}
+{a_x}_i = \sum^N_{j \neq i} \frac{-G m_j}{|\vec{r}_{ij}|^2}\frac{({r_x}_i - {r_x}_j)}{|\vec{r}_{ij}|}
 $$
 
-where, even for one dimension, $|r_{ij}|$ is still the total magnitude of the difference in positions between two particles, given by:
+where, even for one dimension, $|\vec{r}_{ij}|$ is still the total magnitude of the difference in positions between two particles, given by:
 
 $$
-|r_{ij}| = \left(({r_x}_i - {r_x}_j)^2 + ({r_y}_i - {r_y}_j)^2 + ({r_z}_i - {r_z}_j)^2\right)^{1/2}.
+|\vec{r}_{ij}| = \left(({r_x}_i - {r_x}_j)^2 + ({r_y}_i - {r_y}_j)^2 + ({r_z}_i - {r_z}_j)^2\right)^{1/2}.
 $$
 
 Be careful to make sure the indices of the values in $({r_x}_i - {r_x}_j)$ are in the correct order,
@@ -244,20 +243,20 @@ the standard equations of motion to give
 
 $$
 \begin{align}
-\vec{v}_{n+1} & = \vec{v}_n + a_n \Delta{t} + {\mathcal{O}}\left( \left(\Delta t \right)^2\right),\\
-\vec{x}_{n+1} & = \vec{x}_n + \vec{v}_n \Delta{t} + {\mathcal{O}}\left( \left(\Delta t \right)^2\right),
+\vec{v}_{n+1} & = \vec{v}_n + a_n \Delta{t} + \mathcal{O}\left( \Delta t^2\right),\\
+\vec{x}_{n+1} & = \vec{x}_n + \vec{v}_n \Delta{t} + \mathcal{O}\left( \Delta t^2\right),
 \end{align}
 $$
 
-where ${\mathcal{O}}\left( \left(\Delta t \right)^2\right)$ signifies contributions of higher order.
+where $\mathcal{O}\left(\Delta t^2\right)$ signifies contributions of higher order.
 If $\Delta t$ has a small enough value these higher-order contributions will be small and can be
 safely ignored. This is the assumption made by Euler's Method. The error in any given step is given
-by the truncation of the expansion and in this case is of order $(\Delta t)^2$. This error will
+by the truncation of the expansion and in this case is of order $\Delta t^2$. This error will
 accumulate each time the iteration is applied and hence the error in a simulation of fixed duration
 will be of order $\Delta t$ (the cumulative error will be of order $N \Delta t^2$, for $N$ time
 steps, where a total timespan $T$ gives $N = T/\Delta t$, and hence errors $\propto \Delta t$). In
 the following paragraphs other algorithms are introduced. The errors in each of these approximations
-is not discussed but an investigation of this could form a part of your project.
+are not discussed but an investigation of this could form a part of your project.
 
 As well as not being very accurate, for oscillatory systems the *Euler* method can be unstable. An
 alternative method called the [*Euler-Cromer*
@@ -305,7 +304,7 @@ It is given by
 $$
 \begin{align}
 \vec{x}_{n+1} & \approx \vec{x}_n + \vec{v}_n
-\Delta{t} + \frac{1}{2}\vec{a}_n \left(\Delta t \right)^2,\\
+\Delta{t} + \frac{1}{2}\vec{a}_n \Delta t^2,\\
   \vec{v}_{n+1} & \approx \vec{v}_n + \frac{1}{2} \left( \vec{a}_{n+1} + \vec{a}_n \right)  \Delta{t}.
 \end{align}
 $$
@@ -314,7 +313,7 @@ Clearly in this case we need some way of estimating $\vec{a}_{n+1}$. This can be
 any of the algorithms/methods mentioned above first and then applying Verlet.
 
 Beyond these algorithms you can also consider higher-order algorithms such as the well-known
-[Runge-Kutta](https://en.wikipedia.org/wiki/Runge%E2%80%93Kutta_methods) algorithms which are very
+[Runge-Kutta](https://en.wikipedia.org/wiki/Runge%E2%80%93Kutta_methods) algorithms, which are very
 widely used in physics simulations. The Runge-Kutta algorithms aren't discussed in detail here as it
 can be troublesome to correctly turn them into code, but you are welcome to implement them if you
 wish. The algorithms listed above are likely to be sufficiently accurate for most projects you are
@@ -326,22 +325,22 @@ the simple Euler-Cromer algorithm.
 To summarise the above description, the aim of this project is to produce a simulation of a physical
 system that evolves with time. An interesting type of system to consider is the motion of multiple
 massive bodies interacting under the influence of their gravitational fields, e.g., the Solar
-System. This can be built up in stages of increasing complexity, i.e.:
+System. This can be built up in stages of increasing complexity:
 
 1. a single massive particle in a static field;
-2. a pair of massive particles interacting with each other in 1, 2 and 3 dimensions;
-3. a set or 3 or more massive particles interacting in 3 dimensions;
+2. a pair of massive particles interacting with each other in one, two and three dimensions;
+3. a set of three or more massive particles interacting in three dimensions;
 4. supplying initial conditions to the simulation based on masses, positions and velocities of solar system bodies.
 
 To evolve the motion of the particles in the simulation the Euler, Euler-Cromer or other numerical
 approximation methods, as discussed above, should be used.
 
-You are free to produce the simulation as you wish, but the two pre-defined exercises ([Final
-Project Part 1](https://modules.lancaster.ac.uk/mod/quiz/view.php?id=1685921) and [Part
-2](https://modules.lancaster.ac.uk/mod/quiz/view.php?id=1685932)) that are part of the project
-provide a good starting point (i.e., the `Particle` class) for expansion to a more fully formed
-simulation. You can use results and experimentation with these exercises as part of your final
-report.
+You are free to produce the simulation as you wish, but the two
+pre-defined exercises (Final Project Parts 1 and 2 on Moodle) that
+are part of the project provide a good starting point (e.g., the
+`Particle` class) for expansion to a more fully formed simulation. You
+can use results and experimentation with these exercises as part of
+your final report.
 
 The simulation you write should come with some tests that show that it works as expected, e.g.,
 tests of parts of the code or simple systems against analytical calculations. Useful tests are
@@ -647,11 +646,11 @@ Here are a selection of common issues and potential things to check to resolve t
 
 There are a few things to check if your simulation is "exploding" or "imploding":
 
-* check that your acceleration vectors are pointing in the correct direction (i.e., have you
+* check that your acceleration vectors are pointing in the correct direction (e.g., have you
   accidentally made gravity repulsive?)
 * check that your initial conditions (position, velocity, mass) are in consistent units and also are
-  consistent with the units of your value of the gravitational constant. I.e., if your velocities
-  are in $\text{km}\,\text{hr}^{-1}$, but G is in $\text{N}\,\text{m}^2\,\text{kg}^{-2}$ your system
+  consistent with the units of your value of the gravitational constant. E.g., if your velocities
+  are in $\text{km}\,\text{hr}^{-1}$, but $G$ is in $\text{N}\,\text{m}^2\,\text{kg}^{-2}$ your system
   will not work.
 * check all your initial conditions. Have you remembered to include the Sun!?
 

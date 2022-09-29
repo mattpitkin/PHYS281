@@ -13,7 +13,7 @@ A code might require input data and it might also create data for outputting. Th
 to be able to read and write data from and to a file. This is often referred to as I/O, standing for
 "Input/Output".
 
-Files can either contain plain [ascii text](https://en.wikipedia.org/wiki/ASCII), i.e., text that is
+Files can either contain plain [ASCII text](https://en.wikipedia.org/wiki/ASCII), i.e., text that is
 readable if the file is opened with a standard text editor, or information that is in a binary
 format (generally this is not readable by standard editor unless the format is known).
 
@@ -56,7 +56,7 @@ binary file.
 
     It is useful to save to filenames that do not contain spaces.
 
-## Basic reading and writing to file (ascii text only)
+## Basic reading and writing to file (ASCII text only)
 
 The built-in Python function [`open`](https://docs.python.org/3/library/functions.html#open)
 provides a way to open files and make them ready for reading their content or writing to them.
@@ -97,9 +97,12 @@ print(y)
 [9.8, 10.3, 12.4, 13.2, 14.7, 16.1, 17.2, 18.7, 20.1, 21.3]
 ```
 
-In the above code, [`readlines`](https://www.w3schools.com/python/ref_file_readlines.asp) is a
-method of the file object. It goes through the file and returns a list, where each entry is a string
-containing a line from the file.
+In the above code,
+[`readlines`](https://www.w3schools.com/python/ref_file_readlines.asp)
+is a method of the file object. It goes through the file and returns a
+list, where each entry is a string containing a line from the file.
+One can avoid reading in the entire file at once by simply using `for
+line in fp:`; this saves time and memory when files are very large.
 
 When reading data in this way you must know what the data file looks like, i.e., you need to know
 that comment lines start with a `#` and that it contains two columns of numbers.
@@ -121,7 +124,7 @@ x = []  # empty list to contain x data
 y = []  # empty list to contain y data
 with open("mydata.txt", "r") as fp:
     # indent within the with statement
-    for line in fp.readlines():  # loop through each line in the data
+    for line in fp:  # loop through each line in the data
         if line[0] == "#":
             # skip lines that start with a "#"
             continue
@@ -159,7 +162,7 @@ for i in range(len(datax)):  # loop over the data
 fp.close()  # close the file
 ```
 
-The contexts of this file would look like:
+After this program is run, the contents of file `newfile.txt` will look like:
 
 ```
 10 497.3
@@ -329,7 +332,7 @@ MyData: 'Lab1'
 A plain text file format that allows you to save additional meta data is
 [JSON](https://www.json.org/json-en.html). A JSON file has the format of a dictionary object, so
 data (numbers, lists, string, or even further dictionaries) stored in a dictionary can be output as
-a JSON file. Dictionaries have keys and values, therefore the keys can provide information (meta
+a JSON file. Dictionaries have keys and values; therefore the keys can provide information (meta
 data) about the data that is stored.
 
 The data can be written to a text file using the

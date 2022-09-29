@@ -79,7 +79,7 @@ float64
 ```
 
 !!! warning
-    If you have an integer array and use the `+=` operator to add another non-integer array to it
+    If you have an integer array and use the `+=` operator to add another non-integer array to it,
     it will raise an error:
 
     ```python
@@ -125,7 +125,7 @@ print(x)
 [  1   2 100]
 ```
 
-Like with a [`list`](../demo-compound-data-types/index.html#lists), multiple values can be returned,
+As with a [`list`](../demo-compound-data-types/index.html#lists), multiple values can be returned,
 or assigned, using a [slice](../demo-compound-data-types/index.html#slices) (the `:`):
 
 ```python

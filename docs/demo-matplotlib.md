@@ -225,6 +225,13 @@ plt.ylabel("Height (m)", fontfamily="Times New Roman", fontsize=20)
 plt.show()
 ```
 
+For some reason the default font size in almost all plotting programs
+and packages (including matplotlib) is far too small.  When creating
+figures to include in a report or other document, you should always
+make sure that the text and axis labels, etc., are a similar size to
+the text in the main body of your report.  It shouldn't be necessary
+to use a magnifying glass to read the axis labels!
+
 ![Demonstration of axes label fonts](matplotlib/axeslabels2.png)
 
 If you want to use mathematical text, or Greek lettering, in axes labels you can used LaTeX-like
@@ -236,10 +243,13 @@ y = x ** 2  # a quadratic
 
 plt.plot(x, y)
 # use LaTeX math in labels
-plt.xlabel("$\eta$", fontsize=16)
-plt.ylabel("$f(\eta) = \eta^2$", fontsize=16)
+plt.xlabel(r"$\eta$", fontsize=16)
+plt.ylabel(r"$f(\eta) = \eta^2$", fontsize=16)
 plt.show()
 ```
+
+It is often helpful to use raw strings for axis labels that contain
+LaTeX, otherwise the backslash may need to be escaped.
 
 ![Demonstration of axes label latex](matplotlib/axeslabelslatex.png)
 
@@ -269,8 +279,8 @@ plt.plot(x, y1, color="b", label="Data 1")
 plt.plot(x, y2, color="r", label="Data 2")
 plt.plot(x, y3, color="g", label="Data 3")
 
-plt.xlabel("x")
-plt.ylabel("y")
+plt.xlabel(r"$x$")
+plt.ylabel(r"$y$")
 
 # add legend
 plt.legend()
@@ -310,8 +320,8 @@ plt.xlim([-5, 5])
 # zoom in on a y-range from -5 to 25
 plt.ylim([-5, 25])
 
-plt.xlabel("x")
-plt.ylabel("y")
+plt.xlabel(r"$x$")
+plt.ylabel(r"$y$")
 
 plt.show()
 ```
@@ -333,8 +343,8 @@ y = 3.5 - 2.3 * x + 0.5 * x ** 2  # a more complex quadratic
 # plot the data
 plt.plot(x, y)
 
-plt.xlabel("x")
-plt.ylabel("y")
+plt.xlabel(r"$x$")
+plt.ylabel(r"$y$")
 
 # turn on the grid
 plt.grid()
@@ -362,8 +372,8 @@ y = 2.5 * x ** 4.5
 # plot the data in log-log space
 plt.loglog(x, y)
 
-plt.xlabel("x")
-plt.ylabel("y")
+plt.xlabel(r"$x$")
+plt.ylabel(r"$y$")
 
 # turn on the grid
 plt.grid()
@@ -386,8 +396,8 @@ y = np.random.randn(200)
 
 # plot data points using circle markers
 plt.plot(x, y, linestyle="None", marker="o")
-plt.xlabel("x")
-plt.ylabel("y")
+plt.xlabel(r"$x$")
+plt.ylabel(r"$y$")
 plt.show()
 ```
 
@@ -410,8 +420,8 @@ z = 10 / np.sqrt(x ** 2 + y ** 2)
 # plot data using scatter, with size and colour representing "z" data
 plt.scatter(x, y, s=z, c=z)
 plt.colorbar()
-plt.xlabel("x")
-plt.ylabel("y")
+plt.xlabel(r"$x$")
+plt.ylabel(r"$y$")
 plt.show()
 ```
 
@@ -658,8 +668,8 @@ y = 3.5 - 2.3 * x + 0.5 * x ** 2  # a more complex quadratic
 ax.plot(x, y)
 
 # add axis labels
-ax.set_xlabel("x")
-ax.set_ylabel("y")
+ax.set_xlabel(r"$x$")
+ax.set_ylabel(r"$y$")
 
 # set limits
 ax.set_xlim([-7, 7])
@@ -736,9 +746,9 @@ axs[0].plot(x, y1, color="blue")
 axs[1].plot(x, y2, color="red")
 
 # set axes labels
-axs[1].set_xlabel("$\phi$")  # only set x-axis label on bottom plot
-axs[0].set_ylabel("sin($\phi$)")
-axs[1].set_ylabel("cos($\phi$)")
+axs[1].set_xlabel(r"$\phi$")  # only set x-axis label on bottom plot
+axs[0].set_ylabel(r"$\sin(\phi)$")
+axs[1].set_ylabel(r"$\cos(\phi)$")
 
 fig.tight_layout()
 fig.savefig("trigfuncs.png")
@@ -810,8 +820,8 @@ y = 3.5 - 2.3 * x + 0.5 * x ** 2  # a more complex quadratic
 ax.plot(x, y)
 
 # add axis labels
-ax.set_xlabel("x")
-ax.set_ylabel("y")
+ax.set_xlabel(r"$x$")
+ax.set_ylabel(r"$y$")
 
 fig.savefig("myfigure.png")
 ```

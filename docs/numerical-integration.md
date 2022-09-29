@@ -19,10 +19,10 @@ numerical approach to integrating them. These techniques are based around the fa
 can be written as a limit of a "Riemann sum", like this:
 
 $$
-\int_{a}^{b} f(x) dx \equiv \lim_{N \to \infty} \sum^{N}_{i=1} f\left(x_i\right) \left(\frac{b-a}{N}\right)
+\int_{a}^{b} f(x) \, dx \equiv \lim_{N \to \infty} \sum^{N}_{i=1} f\left(x_i\right) \left(\frac{b-a}{N}\right)
 $$
 
-Some basic techniques for numerically-integrating functions of one variable to obtain approximations
+Some basic techniques for numerically integrating functions of one variable to obtain approximations
 to the true value of the integral are shown in the following sections. Remember that all of these
 techniques are *approximations* based on the Riemann sum above but using only a finite number of
 terms in the sum.
@@ -38,14 +38,14 @@ The area under the curve is estimated using the function's value at the lower li
 integration region, i.e.,
 
 $$
-\int_{a}^{b} f(x) dx \approx (b-a) f(a)
+\int_{a}^{b} f(x) \, dx \approx (b-a) f(a)
 $$
 
 The accuracy can be improved by simply dividing the interval into $N$ equidistant sub-intervals and
 summing up the results from each sub-interval, giving the expression
 
 $$
-\int_{a}^{b} f(x) dx \approx \sum_{i=1}^{N} h f(x_i)
+\int_{a}^{b} f(x) \, dx \approx \sum_{i=1}^{N} h f(x_i)
 $$
 
 where $h=(b-a)/N$ and $x_i=a+h(i-1)$.
@@ -61,7 +61,7 @@ The left-endpoint rectangle rule can be easily improved for many functions by us
 value in the middle of the interval rather than a point on the edge of the interval:
 
 $$
-\int_{a}^{b} f(x) dx \approx (b-a) f(a + (b-a)/2).
+\int_{a}^{b} f(x) \, dx \approx (b-a) f(a + (b-a)/2).
 $$
 
 as before, subdividing the interval into many sub-intervals will generally improve the approximation
@@ -79,10 +79,10 @@ $$
 f(x) = x^2 - 2 x + 3,
 $$
 
-which for the integral over the range -5 to 5 has the analytical value of
+which for the integral over the range $-5$ to 5 has the analytical value of
 
 $$
-\int_{-5}^{5} x^2 - 2x + 3 = 113.3333333.
+\int_{-5}^{5} \left( x^2 - 2x + 3 \right) \, dx = 113.3333333.
 $$
 
 #### 5 intervals
@@ -113,13 +113,15 @@ between these bounds.*](img/trapint1.png)
 The area is therefore calculated like this:
 
 $$
-\int_{x_1}^{x_2} f(x) dx \approx  h\left( \frac{1}{2} f(x_1) + \frac{1}{2} f(x_2)\right)
+\int_{x_1}^{x_2} f(x) \, dx \approx  h\left( \frac{1}{2} f(x_1) + \frac{1}{2} f(x_2)\right)
 $$
 
-This method is exact for polynomials up to degree 1, i.e., straight lines, because such functions
-can be exactly represented by a trapezium. It is clearly an approximation for higher order
-polynomials ($x^2$, $x^3$, etc.) and other functions. The error will also be small if $h$ is small
-and vanish in the limit that $h$ tends to zero.
+This method is exact for polynomials up to degree 1, i.e., straight
+lines, because the area under such functions can be exactly
+represented by a trapezium. It is clearly an approximation for higher
+order polynomials ($x^2$, $x^3$, etc.) and other functions. The error
+will also be small if $h$ is small and vanish in the limit that $h$
+tends to zero.
 
 Note that the area of a trapezium is its average height multiplied by its width, i.e.
 $\frac{(f(x_1)+f(x_2))}{2}h$.
@@ -129,7 +131,7 @@ into many small intervals, e.g., four intervals as shown by
 
 $$
 \begin{aligned}
-    \int_{x_1}^{x_5} f(x) dx & \approx & h \left(\frac{1}{2} f(x_1) + \frac{1}{2} f(x_2)\right) \, \text{region A}  \\
+    \int_{x_1}^{x_5} f(x) \, dx & \approx & h \left(\frac{1}{2} f(x_1) + \frac{1}{2} f(x_2)\right) \, \text{region A}  \\
     &&  + h \left(\frac{1}{2} f(x_2) + \frac{1}{2} f(x_3)\right) \, \text{region B} \\
     &&  + h \left(\frac{1}{2} f(x_3) + \frac{1}{2} f(x_4)\right) \, \text{region C} \\
     &&  + h \left(\frac{1}{2} f(x_4) + \frac{1}{2} f(x_5)\right) \,\text{region D} 
@@ -147,7 +149,7 @@ We can generalise this 'extended trapezium' or 'compound trapezium' rule to $N$ 
 
 $$
 \begin{aligned}
-    \int_{x_1}^{x_{N+1}} f(x) dx&\approx h \left[ 
+    \int_{x_1}^{x_{N+1}} f(x) \, dx&\approx h \left[
     \frac{1}{2}f(x_1) + f(x_2) + f(x_3) + \dots + f(x_{N}) + \frac{1}{2}f(x_{N+1}) \right]\\
      &\approx  h \left[ \frac{1}{2}(f(x_1)+f(x_{N+1})) + \sum_{i=2}^{N}f(x_i) \right]
 \end{aligned}
@@ -175,9 +177,9 @@ $x_{i+1}$ we obtain
 
 $$
 \begin{align}
-  \int_{x_i}^{x_{i+1}} f(x) dx =& f(x_i)\int_{x_i}^{x_{i+1}}dx \nonumber \\
-                                &+ f'(x_i)\int_{x_i}^{x_{i+1}}(x-x_i)dx \nonumber \\
-                                &+ \frac{1}{2}f''(x_i)\int_{x_i}^{x_{i+1}}(x-x_i)^2dx \nonumber \\
+  \int_{x_i}^{x_{i+1}} f(x) \, dx =& f(x_i)\int_{x_i}^{x_{i+1}} \, dx \nonumber \\
+                                &+ f'(x_i)\int_{x_i}^{x_{i+1}}(x-x_i) \, dx \nonumber \\
+                                &+ \frac{1}{2}f''(x_i)\int_{x_i}^{x_{i+1}}(x-x_i)^2 \, dx \nonumber \\
                                 &+ \dots 
 \end{align}
 $$
@@ -185,12 +187,12 @@ $$
 the difference between $x_i$ and $x_{i+1}$ is $h$, so with a little bit of algebra we obtain
 
 $$
- \int_{x_i}^{x_{i+1}} f(x) dx = hf(x_i) + \frac{1}{2}h^2f'(x_i)  
+ \int_{x_i}^{x_{i+1}} f(x) \, dx = hf(x_i) + \frac{1}{2}h^2f'(x_i)
                                         + \frac{1}{6}h^3f''(x_i)
-                                        + O(h^4)
+                                        + \mathcal{O}(h^4)
 $$
 
-where the big "O" notation denotes all of the missing higher-order terms starting with the term
+where the big "$\mathcal{O}$" notation denotes all of the missing higher-order terms starting with the term
 proportional to $h^4$.
 
 So we see that in general we can represent our integral as an infinite series in $h$ which we have
@@ -205,13 +207,13 @@ from $1$ to $N$, and $N$ is inversely proportional to $h$. Hence we would actual
 in all cases to be linear in $h$. I.e., for the rectangle rules we expect that
 
 $$
-\int_{x_1}^{x_N} f(x) dx = \sum_{i=1}^{N} h f(x_i) + O(h)
+\int_{x_1}^{x_N} f(x) \, dx = \sum_{i=1}^{N} h f(x_i) + \mathcal{O}(h)
 $$
 
 and for the trapezium rule we expect
 
 $$
-\int_{x_1}^{x_N} f(x) dx= h\left[ \frac{1}{2}(f(x_1)+f(x_N)) + \sum_{i=2}^{N-1}f(x_i) \right] + O(h)
+\int_{x_1}^{x_N} f(x) \, dx= h\left[ \frac{1}{2}(f(x_1)+f(x_N)) + \sum_{i=2}^{N-1}f(x_i) \right] + \mathcal{O}(h)
 $$
 
 In fact, the above equation for the rectangle rule error is correct for the left-hand rectangle rule
@@ -232,9 +234,9 @@ When we integrate this expression with respect to $x$ over the same interval as 
 
 $$
 \begin{align}
-\int_{x_i}^{x_{i+1}} f(x) dx =& f(x_{i+1})\int_{x_i}^{x_{i+1}}dx \nonumber \\
-                              & + f'(x_{i+1})\int_{x_i}^{x_{i+1}}(x-x_{i+1})dx \nonumber \\
-                              & + \frac{1}{2}f''(x_{i+1})\int_{x_i}^{x_{i+1}}(x-x_{i+1})^2dx \nonumber \\
+\int_{x_i}^{x_{i+1}} f(x) \, dx =& f(x_{i+1})\int_{x_i}^{x_{i+1}} \, dx \nonumber \\
+                              & + f'(x_{i+1})\int_{x_i}^{x_{i+1}}(x-x_{i+1}) \, dx \nonumber \\
+                              & + \frac{1}{2}f''(x_{i+1})\int_{x_i}^{x_{i+1}}(x-x_{i+1})^2 \, dx \nonumber \\
                               & + \ldots 
 \end{align}
 $$
@@ -244,10 +246,10 @@ $(x-x_{i+1})$ being negative in the interval $x_i$ to $x_{i+1}$. In terms of $h$
 
 $$
 \begin{align}
- \int_{x_i}^{x_{i+1}} f(x) dx =& hf(x_{i+1}) \\
+ \int_{x_i}^{x_{i+1}} f(x) \, dx =& hf(x_{i+1}) \\
                                &- \frac{1}{2}h^2f'(x_{i+1}) \\ 
                                &+ \frac{1}{6}h^3f''(x_{i+1}) \\
-                               &+ O(h^4)
+                               &+ \mathcal{O}(h^4)
 \end{align}
 $$
 
@@ -257,7 +259,7 @@ the second Taylor expansion the term linear in $h$ will cancel out, and we obtai
 
 $$
 \begin{aligned}
-\int_{x_1}^{x_N} f(x) dx= h\left[ \frac{1}{2}(f(x_1)+f(x_N)) + \sum_{i=2}^{N-1}f(x_i) \right] + O(h^{2}) \label{eq:trapezium_righterror}
+\int_{x_1}^{x_N} f(x) \, dx= h\left[ \frac{1}{2}(f(x_1)+f(x_N)) + \sum_{i=2}^{N-1}f(x_i) \right] + \mathcal{O}(h^{2}) \label{eq:trapezium_righterror}
 \end{aligned}
 $$
 
@@ -275,8 +277,8 @@ sampling points. Don't mix up the two conventions!
 
 The trapezium rule is an example of a "first-order" numerical integration technique. A similar
 demonstration can be made for the midpoint rule which is also "first-order". First-order techniques
-have errors of the form $O(h^2)$. In principle one can form higher-order approximations with errors
-of the form $O(h^n)$ for higher values of $n$. Such techniques should in general be better at
+have errors of the form $\mathcal{O}(h^2)$. In principle one can form higher-order approximations with errors
+of the form $\mathcal{O}(h^n)$ for higher values of $n$. Such techniques should in general be better at
 approximating an integral compared to the techniques that were presented above, for the same number
 of sampling points.
 
@@ -285,7 +287,7 @@ mid-point rules), which we quote here for completeness without derivation. It ta
 
 $$
 \begin{aligned}
-\int_{x_1}^{x_{N}} f(x) dx \approx \dfrac{1}{3} \left[ f(x_1)+f(x_N) + 4\sum_{i=1}^{N/2}f(x_{1}+(2i-1)h)   2\sum_{i=1}^{N/2-1}f(x_1+2ih)\right]
+\int_{x_1}^{x_{N}} f(x) \, dx \approx \dfrac{1}{3} \left[ f(x_1)+f(x_N) + 4\sum_{i=1}^{N/2}f(x_{1}+(2i-1)h) + 2\sum_{i=1}^{N/2-1}f(x_1+2ih)\right]
 \end{aligned}
 $$
 

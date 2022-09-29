@@ -47,7 +47,7 @@ $$
 $$
 
 This can be generalised to polynomials of any order and can also include weighting for each data
-point, i.e., in case where the noise on measurements is not the same for each measurement.
+point, i.e., in cases where the noise on measurements is not the same for each measurement.
 
 ## Fitting a line with NumPy
 
@@ -133,8 +133,8 @@ function to do least squares fitting:
 * [`lsq_linear()`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.lsq_linear.html) - solves the linear least squares problem
 * [`least_squares()`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.least_squares.html) - solves the non-linear least squares problem.
 
-We will show an example of using `curve_fit()`. This can fit the parameters of an arbitrary user
-defined function, although we will again show fitting a straight line. `curve_fit()` requires the
+We will show an example of using `curve_fit()`. This can fit the parameters of an arbitrary user-defined
+function, although we will again show fitting a straight line. `curve_fit()` requires the
 function being fit to have its first argument as the independent variable, i.e., the $\mathbf{x}$
 values in our example, follow by separate arguments for the parameters being fit. In the example, we
 will again fit a straight line to some fake data and will re-use the `model` function from the

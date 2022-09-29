@@ -12,8 +12,8 @@ Below are further details of what you must submit for the project and guideline 
 
 ## Code
 
-You should submit a zipped files containing all your Python scripts, which should be submitted via
-Moodle [here](https://modules.lancaster.ac.uk/mod/assign/view.php?id=1700679). This zip file should
+You should submit a zip file containing all your Python scripts, which should be submitted via
+Moodle. This zip file should
 also contain a plain text file called `README` or `README.txt` that briefly describes (in a single sentence) the contents
 of each Python file and how to run your simulation(s), i.e., which file to run to reproduce simulations. If you produced large data files you do not
 need to include these in the submission. In the vast majority of cases we will not be attempting to
@@ -44,16 +44,15 @@ plots or interfaces. While having a fancy GUI interface or movies of the simulat
 not sacrifice spending time doing these things when tests or good documentation or writing your
 report are more important.
 
-If you are struggling with where to start it is useful for you to make use of the two project
-exercises ([Final Project Part 1](https://modules.lancaster.ac.uk/mod/quiz/view.php?id=1332898) and
-[Final Project Part 2](https://modules.lancaster.ac.uk/mod/quiz/view.php?id=1332908)) as a basis for
-your simulation. If you look at the marking grid below, code similar to that from the [Final Project
-Part 1](https://modules.lancaster.ac.uk/mod/quiz/view.php?id=1332898) exercise would already enable
-you to get a D with some small additional work. The code from the [Final Project Part
-2](https://modules.lancaster.ac.uk/mod/quiz/view.php?id=1332908) exercises would give you a C with
-some additional work. Also look at, and experiment with, the example [test
-file](https://modules.lancaster.ac.uk/mod/resource/view.php?id=1332897) accompanying the Week 6
-exercises.
+If you are struggling with where to start it is useful for you to make
+use of the two project exercises ("Final Project Part 1" and "Final
+Project Part 2" on Moodle) as a basis for your simulation. If you look
+at the marking grid below, code similar to that from the Final Project
+Part 1 exercise would already enable you to get a grade D with some
+small additional work. The code from the Final Project Part 2
+exercises would give you a grade C with some additional work. Also
+look at, and experiment with, the example test file accompanying the
+Week 6 exercises on Moodle.
 
 ### Code marking grid
 
@@ -82,7 +81,7 @@ of marks between the different attributes are given in brackets.
 The report should be **no more than 10 pages long** including pictures (but excluding title page,
 abstract and references). You do not need to include code within the report. The report can be
 written in whatever software you prefer (e.g., LaTeX or Word), but you **must** submit a **PDF**
-file for marking on Moodle [here](https://modules.lancaster.ac.uk/mod/assign/view.php?id=1700680).
+file for marking on Moodle.
 If using LaTeX an example template file is available on Moodle and you may want to make use of
 online services such as [Overleaf](https://overleaf.com) or [Authorea](https://www.authorea.com/)
 for writing your report. Writing a report about a coding project may seem a challenge, but the
@@ -128,12 +127,12 @@ information or an incoherent layout then awarding marks becomes more difficult.
 
 The report should not contain:
 
-* lengthy descriptions of you code (you are submitting your full code, so we do not need to see it twice);
-* descriptions of the process of debugging your code unless it provides insight into how you tested
+* Lengthy descriptions of your code (you are submitting your full code, so we do not need to see it twice);
+* Descriptions of the process of debugging your code unless it provides insight into how you tested
   the code or what you learned;
-* too many figures; you only have 10 pages, so think about what you want to show and therefore
+* Too many figures; you only have 10 pages, so think about what you want to show and therefore
   produce figures that provide useful summary information.
-* references purely to websites (unless to software without an associated publication).
+* References purely to websites (unless to software without an associated publication).
 
 ### Report marking grid
 
@@ -143,7 +142,7 @@ and presentation. The weights of marks between the different attributes are give
 
 | Grade | Abstract (10%) | Introduction (20%) | Results (40%) | Conclusions (20%) | Presentation (10%) |
 | ----- | -------- | ------------ | ------- | ----------- | ------ |
-| A+ | Abstract succinctly summaries the project and enthuses the reader, including mentioning aspects beyond the project's main scope. It includes quantitative results from the simulation including brief explanations of the effects seen. | An exceptional description of the background theory behind the simulation and algorithms being applied, including numerical approximation methods beyond Euler and Euler-Cromer and any extensions beyond the scope of the exercise. | Results include thorough and coherent descriptions of outcomes of a large suite of tests validating the simulation. In depth comparisons between different numerical approximations and time steps are described including detailed quantitative and qualitative assessment of the differences. | A thorough critical examination of the simulation and results is provided. Discussions on the limitations of the methods used are provided. Discussions show high levels of insight into features of the observed results and describe areas for improvement. | The report is superbly laid out and is written in a highly readable writing style. All figures and tables and exceptionally clear, with self-contained and informative captions. |
+| A+ | Abstract succinctly summarises the project and enthuses the reader, including mentioning aspects beyond the project's main scope. It includes quantitative results from the simulation including brief explanations of the effects seen. | An exceptional description of the background theory behind the simulation and algorithms being applied, including numerical approximation methods beyond Euler and Euler-Cromer and any extensions beyond the scope of the exercise. | Results include thorough and coherent descriptions of outcomes of a large suite of tests validating the simulation. In depth comparisons between different numerical approximations and time steps are described including detailed quantitative and qualitative assessment of the differences. | A thorough critical examination of the simulation and results is provided. Discussions on the limitations of the methods used are provided. Discussions show high levels of insight into features of the observed results and describe areas for improvement. | The report is superbly laid out and is written in a highly readable writing style. All figures and tables and exceptionally clear, with self-contained and informative captions. |
 | A | Abstract provides a readable and succinct summary of the project. It includes some quantitative results from the simulations. | An excellent description of the background theory behind the simulation and algorithms being applied, including two numerical approximation methods such as Euler and Euler-Cromer. | Results include a coherent description of outcomes of a suite of tests validating the simulation. Comparisons between different numerical approximations and different time steps are described including quantitative and qualitative assessment of the differences. Any errors are minor and do not effect the interpretation of the results. | A critical examination of the simulation and results is provided. Discussions on the limitations of the methods used are provided. Discussions show insight into features of the observed results and describe areas for improvement. | The report is very well laid out with clearly defined sections that are ordered in an appropriate manner. Figures and tables are all legible and of a high quality and all have informative captions. |
 | B | Abstract provides a good and understandable summary of the project. It includes some qualitative description of results from the simulations. | A good description of the background theory behind the simulation and algorithms being applied, including two numerical approximation methods such as Euler and Euler-Cromer. | Results include a qualitative description of outcomes of a suite of tests validating the simulation. Comparisons between different numerical approximations are described including a qualitative assessment of the differences. There may be some minor errors in the results that affect their interpretation. | A good summary of the results is provided including some qualitative interpretation. Limitations of the simulation and areas for improvement are acknowledged, but lack detail. | The report has a good structure with relevant sections included. The writing style is good and generally flows in a coherent manner between section. Figures are generally legible, with minor exceptions. Captions are included, but provide more limited information. |
 | C | Abstract provides a satisfactory summary of the project. It includes some qualitative description of results from the simulations. | A satisfactory description of the background theory behind the simulation and algorithms being applied, including one numerical approximation method such as Euler or Euler-Cromer. | Results include a qualitative description of outcomes of more than one test validating the simulation. There are several errors in the results that lead to misinterpretations of the results. | A satisfactory summary of the results is provided including some qualitative interpretation. Limitations of the simulation and areas for improvement are not mentioned. | The report has a satisfactory structure with most relevant sections included. Writing style is mostly clear, but has areas of inconsistency and incoherence. Tables and figures exist and have captions, but are hard to interpret with the information given. |

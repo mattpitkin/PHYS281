@@ -194,7 +194,7 @@ There are a variety of useful Python tutorials freely available online:
 ### Recommended reading
 
 * **Python and Matplotlib Essentials for Scientists and Engineers**, Matt Wood, IoP Publishing, 2015
-  [http://iopscience.iop.org/book/978-1-6270-5620-5](http://iopscience.iop.org/book/978-1-6270-5620-5):
+  [https://iopscience.iop.org/book/mono/978-1-6270-5620-5](https://iopscience.iop.org/book/mono/978-1-6270-5620-5):
   this book is freely available as a PDF from the IoP website. Note that this book is written based
   on Python 2 rather than Python 3, so minor differences will be present.
 * **Python Data Science Handbook**, Jake VanderPlas, O'Reilly,

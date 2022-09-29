@@ -53,7 +53,7 @@ Variables can then be created from this class (also known as @(class instances))
 e = Electron()  # note the brackets are required
 ```
 
-The @(class attributes) of the object can be accessed using a `.` followed by their name, e.g.:
+The @(class attributes) of the object can be accessed using a `.` followed by their name, e.g.,:
 
 ```python
 print(e.mass)
@@ -68,7 +68,7 @@ print(e.mass)
     using [properties](https://www.python-course.eu/python3_properties.php) (setters are not covered
     in this course).
 
-@(Class attributes) can also be accessed directly from the class rather than an instance, e.g.:
+@(Class attributes) can also be accessed directly from the class rather than an instance, e.g.,:
 
 ```python
 print(Electron.mass)
@@ -182,7 +182,7 @@ class Particle:
 ```
 
 Like the data attributes, this method can then be accessed using a `.` followed by the method name,
-e.g.:
+e.g.,:
 
 ```python
 electron = Particle("electron", -1.6e-19, 9.1e-31, spin=1/2)
@@ -667,7 +667,7 @@ class Vector:
     with a different name. Here it is handy to store the vector as a list-type data attribute,
     but it is also nice to be able to access the individual components in an intuitively named
     manner. Hence defining properties for `x`, `y` and `z` that only return those components.
-    These attributes can be accesses with, e.g.:
+    These attributes can be accessed with, e.g.,:
 
     ```python
     v1 = Vector(1, 2, 3)

@@ -112,7 +112,7 @@ raise an [`IndexError`](https://docs.python.org/3/library/exceptions.html#IndexE
 
 ```python hl_lines="5"
 x = [1, 2, 3]
-print(x[5])  # try accessing 6th value, which does not exists
+print(x[5])  # try accessing 6th value, which does not exist
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 IndexError: list index out of range
@@ -120,12 +120,12 @@ IndexError: list index out of range
 
 ### Key errors
 
-For dictionary objects, trying to access a key that does not exists will raise a
+For dictionary objects, trying to access a key that does not exist will raise a
 [`KeyError`](https://docs.python.org/3/library/exceptions.html#KeyError):
 
 ```python hl_lines="5"
 y = {"a": 1, "b": 2}
-y["c"]  # try accessing "c" key that does not exists
+y["c"]  # try accessing "c" key that does not exist
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 KeyError: 'c'
@@ -201,7 +201,7 @@ Traceback (most recent call last):
 FileNotFoundError: [Errno 2] No such file or directory: 'blah.txt'
 ```
 
-## Adding exception handling to code
+## Adding exception-handling to code
 
 Sometimes you can anticipate that a user of your code might get something wrong, e.g., pass a
 variable of the wrong type to a function. When writing the function you can add checks and raise
@@ -245,7 +245,7 @@ def i_am_ok_with_any_number(x):
 Code will almost inevitably contain bugs at first. Debugging is the process of tracking down and
 fixing any bugs. This often takes more time than writing the code in the first place!
 
-To help with debugging it is useful to have well documented code so you can understand what each
+To help with debugging it is useful to have well-documented code so you can understand what each
 section is supposed to do.
 
 Here are a few general tips for debugging:

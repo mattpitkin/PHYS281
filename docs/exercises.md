@@ -2,7 +2,7 @@
 
 Here are a selection of exercises covering various aspects of the course material. Their aim is to
 make you think about how to solve a problem using code. These are not assessed, but you are
-encouraged to try these out as the best way to learn to code is to do!
+encouraged to try these out, because practice is the best way to learn how to code!
 
 In several cases there are already exist functions, e.g., in NumPy, for performing some of these
 exercise problems. While generally you should use existing functions from well maintained libraries
@@ -160,7 +160,7 @@ aim is for you to think about how you would code up the function yourself.
 ### Exercise {{ counter() }}
 
 !!! question "Part 1"
-    Use list comprehension to generate a list containing the square root of all integers between 1
+    Use list comprehension to generate a list containing the square roots of all integers between 1
     and 50.
 
 ??? info "Solution"
@@ -224,7 +224,7 @@ aim is for you to think about how you would code up the function yourself.
 ### Exercise {{ counter() }}
 
 !!! question "Part 1"
-    Create an 3x4 (3 rows, 4 columns) array using a list of lists, where each value in the array is
+    Create an $3 \times 4$ (3 rows, 4 columns) array using a list of lists, where each value in the array is
     initialised to be 1.
 
 ??? info "Solution"
@@ -249,7 +249,7 @@ aim is for you to think about how you would code up the function yourself.
 ### Exercise {{ counter() }}
 
 !!! question "Part 1"
-    Create a 2D 3x3 matrix of numbers (using lists). Loop over the rows in the matrix and print out
+    Create a 2D $3 \times 3$ matrix of numbers (using lists). Loop over the rows in the matrix and print out
     the sum of each row.
 
 ??? info "Solution"
@@ -1237,7 +1237,7 @@ aim is for you to think about how you would code up the function yourself.
     Add a new method to the class that will return the electric field interpolated at any point
     within the grid. You may want to use the SciPy
     [`interp2d`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.interp2d.html)
-    class. The method should raise an error if trying to interpolate outside the bounds of the x-y
+    class. The method should raise an error if trying to interpolate outside the bounds of the $x$-$y$
     grid.
 
     Try reading in a previously saved object and using this new method on that object.
