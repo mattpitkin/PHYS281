@@ -1,5 +1,12 @@
 # PHYS281: Scientific Programming and Modelling Project
 
+!!! important
+    As of the 2022/23 academic year, the most up-to-date version of these course notes can be found
+    at [https://www.lancaster.ac.uk/staff/drummonn/PHYS281/](https://www.lancaster.ac.uk/staff/drummonn/PHYS281/).
+    Please refer to those pages for details on the course, including dates and submission details for assignments.
+
+    This page will remain in place for posterity and can still be used as a general reference for Python programming.
+
 This website provides a series of notes introducing the Python programming language as part of the
 PHYS281 course. These notes are available in both text and video formats. They can be accessed in
 any order, but it is recommended to cover them in the order presented in the table of contents
@@ -150,7 +157,7 @@ The project grade is split between several components:
 * The project code (30%)
 
 The
-[project](https://www.lancaster.ac.uk/staff/drummonn/PHYS281/gravity/)
+[project](https://ma.ttpitk.in/teaching/PHYS281/gravity/)
 aim is to create and test an $n$-body gravitationally interacting
 system (e.g., the Solar System). The two exercises provide a basis on
 which to build up to the full $n$-body simulation.
@@ -167,15 +174,15 @@ and understand how file path structure is formatted, including drive if necessar
 
 Please also see the material in the "Course notes" -> "Getting started" menu for information on
 installing the software required for this course
-([Anaconda](https://www.lancaster.ac.uk/staff/drummonn/PHYS281/demo-anaconda/) and [Visual Studio
-Code](https://www.lancaster.ac.uk/staff/drummonn/PHYS281/demo-vs-code/)) on your own machine or using
+([Anaconda](https://ma.ttpitk.in/teaching/PHYS281/demo-anaconda/) and [Visual Studio
+Code](https://ma.ttpitk.in/teaching/PHYS281/demo-vs-code/)) on your own machine or using
 AppsAnywhere on a machine on campus. The ["Online Python environments"](#online-python-environments)
 section below has some options for running Python, which can be used as a back-up alternative if you
 have initial installation problems.
 
 ## Exercises
 
-A selection of [exercises](https://www.lancaster.ac.uk/staff/drummonn/PHYS281/exercises/) have been created for
+A selection of [exercises](https://ma.ttpitk.in/teaching/PHYS281/exercises/) have been created for
 you to try out and test your Python knowledge. These exercises are not marked and are voluntary. They
 will also be used for demonstration purposes during the course lecture slots.
 
