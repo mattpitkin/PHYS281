@@ -826,8 +826,8 @@ aim is for you to think about how you would code up the function yourself.
                 if binedges[i] <= sample < binedges[i+1]:
                     bincount += 1
 
-                # add in amy samples that equal max value in the final bin
-                if i == (nbins - 1) and sample == max:
+                # add in any samples that equal max value in the final bin
+                if i == (nbins - 1) and sample == binedges[i + 1]:
                     bincount += 1
 
             bincounts.append(bincount)
@@ -894,8 +894,8 @@ aim is for you to think about how you would code up the function yourself.
                 if binedges[i] <= sample < binedges[i+1]:
                     bincount += 1
 
-                # add in amy samples that equal max value in the final bin
-                if i == (nbins - 1) and sample == max:
+                # add in any samples that equal max value in the final bin
+                if i == (nbins - 1) and sample == binedges[i + 1]:
                     bincount += 1
 
             if norm:
